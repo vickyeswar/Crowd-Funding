@@ -1,0 +1,145 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressToAmoundFunded",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "funders",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "miniUSD",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CrowdFund.sol": "CrowdFund"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AggregatorV3Interface.sol": {
+			"keccak256": "0xc6754be18943dd585be9e24a289bdf87341c07fe00d60d33a8227e60438ee48b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d0f0ec00308c7db8a8d32eb02fd6060b2a2457e8c17efdd7a98d52806833649",
+				"dweb:/ipfs/QmPs2gCgkonSrvHduC6PAHg736NEWhTsgHHqcGiz8i3pnC"
+			]
+		},
+		"CrowdFund.sol": {
+			"keccak256": "0xcb2a18129089c13b9273c2ddcbbdd9af226cb0476ad37707ddf26ac5f5d83cc7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://305c6dc42ce1e82da9b5ad0868ac980ee9759d2c2dbaf8fbf38f45ad944dc06e",
+				"dweb:/ipfs/Qmdz7pxd6iZE9qKm4orsc4evYKncMDtoKMk8wdDoSApyMx"
+			]
+		},
+		"PriceConverter.sol": {
+			"keccak256": "0xdaa9c9877b649274fc823df4b661a0129b2f77d2ff2db487a30d7f3bd99b288c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2e8c123099b842df4731803bec96372f0d392bdef894c22a1b144247167084d9",
+				"dweb:/ipfs/QmX2ixdMrEDzNKJNSoHir6QG6YjHv6UwoRLr5hJ85GZK2Q"
+			]
+		}
+	},
+	"version": 1
+}
