@@ -45,4 +45,12 @@ contract CrowdFund{
         require(msg.sender == owner, "Sender is not Owner");
         _;
     }
+    // if funder send amount directly instead of fund function this will trigger
+    receive() external payable {
+    fund();
+    }
+    
+    fallback() external payable {
+    fund();
+    }
 }
